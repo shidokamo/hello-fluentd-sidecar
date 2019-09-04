@@ -24,7 +24,7 @@ spec:
         - name: LOG_DIR
           value: /var/log
         - name: LOG_INTERVAL
-          value: 1
+          value: "1"
       # fluentd sidecar
       - name: sidecar
         image: ${FLUENTD_SIDECAR_IMAGE}
