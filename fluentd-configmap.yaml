@@ -5,8 +5,9 @@ metadata:
 data:
   #
   # You can put multiple files if needed. Fluentd will read all of them
+  # Config file name must be *.conf.
   #
-  fluentd.conf: |-
+  app.conf: |-
     <source>
       @type tail
       path /var/log/app.log

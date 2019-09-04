@@ -50,7 +50,7 @@ spec:
         - name: varlog
           mountPath: /var/log
         - name: config-volume
-          mountPath: /etc/fluentd/config.d
+          mountPath: /etc/fluent/config.d
       volumes:
       - name: varlog
         emptyDir: {}
