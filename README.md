@@ -4,8 +4,8 @@ Fluentd のサイドカーコンテナをデプロイするサンプルです。
 ## Requirements
 事前に、以下の２つのイメージをビルドしておく必要があります。
 
-* [fluentd-sidecar-image](https://github.com/shidokamo/fluentd-sidecar-image)
-* [testr-logger-image](https://github.com/shidokamo/fluentd-sidecar-image)
+* [fluentd-image](https://github.com/shidokamo/fluentd-image)
+* [test-logger-image](https://github.com/shidokamo/test-logger-image)
 
 ローカルにイメージを保存するか、もしくはクラウドレポジトリに登録しておく必要があります。
 gcr.io のコンテナレジストリ以外を使う場合は、イメージのパスを書き換えてください。
