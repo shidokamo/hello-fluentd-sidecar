@@ -27,3 +27,8 @@ Pod の名前は、`kubectl get pod` で得たものに置き換えてくださ�
 ```
 kubectl logs sidecar-example-59cb4fdbc6-6kd4s -c sidecar
 ```
+
+## クリーンナップ
+```
+make clean
+```

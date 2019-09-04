@@ -9,7 +9,7 @@ export
 deploy:delete
 	kubectl apply -f fluentd-configmap.yaml
 	cat deployment.yaml | envsubst | tee | kubectl apply -f -
-delete:
+clean:
 	-kubectl delete configmap fluentd-config
 	-kubectl delete deployment sidecar-example
 debug:
