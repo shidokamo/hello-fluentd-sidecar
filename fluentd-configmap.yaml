@@ -22,7 +22,7 @@ data:
       @type insert_id
     </filter>
 
-    <match app.**>
+    <match **>
       @type stdout
     </match>
 
